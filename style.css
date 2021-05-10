@@ -1,0 +1,35 @@
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  background: rgb(115, 82, 140);
+  background: linear-gradient(
+    343deg,
+    rgba(115, 82, 140, 1) 0%,
+    rgba(223, 28, 114, 1) 2%,
+    rgba(51, 87, 159, 1) 89%
+  );
+  background-size: 100rem;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: snow;
+  padding-bottom: 50rem;
+}
+
+.hero__image {
+  border-radius: 100%;
+  width: 10rem;
+}
+
+a {
+  color: snow;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
